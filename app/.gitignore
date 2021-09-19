@@ -20,7 +20,8 @@ git status # JUST TO SEE
 
 ssh-keygen -t rsa -b 4096 -C "ashutoshbhardwaj879@gmail.com"
 
-cat <path to .pub>
+cat ~/.ssh/id_rsa.pub | clip
+
 
 Add it to your github account
 
